@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: linear-gradient(#525252, #332642);
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+a {
+    color: #fff;
+    -webkit-transition: all .3s ease-in 0s;
+    -moz-transition: all .3s ease-in 0s;
+    -ms-transition: all .3s ease-in 0s;
+    -o-transition: all .3s ease-in 0s;
+    transition: all .3s ease-in 0s;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}

@@ -1,0 +1,73 @@
+h1{
+    padding-top: 18px;
+    padding-bottom: 13px;
+    font-weight: bold;
+    font-size: 30px;
+}
+input::placeholder ,input{
+    color: #c7a5d8 !important;
+    opacity: 1  !important;
+    font-weight: bold; 
+}
+input{
+    color: #863aab !important;
+
+}
+
+.add , .add2{
+  background: #c1c1c1;
+  border-radius: 5px;
+  padding: 1px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.add2{
+     background: #9780bd;
+     width: 356px;
+
+}
+.add p , .add2 p {   
+    margin: 6px;
+    border-radius: 5px;
+    color: #863aab;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.add2 p {
+    color: #fff
+}
+.delet img {
+    width: 20px
+}
+.contacts{
+    margin-top: -10px
+}
+.list {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  position: relative;
+  background: #594f6d;
+  padding: 10px 15px;
+  border-radius: 9px;
+  margin-bottom: 6px;
+}
+.list h3 {
+    font-size: 22px;
+  text-transform: capitalize;
+}
+.list p {    margin-bottom: 0;
+    color: #c1c1c1;
+}
+.delet{
+    color: #fff;
+    position: absolute;
+    right: 18px;
+    top: 20px;
+}
+.checkgroup{
+    display: flex;
+  justify-content: space-around;
+}
